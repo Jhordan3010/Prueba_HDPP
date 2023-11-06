@@ -1,3 +1,18 @@
 *{
-    background-color: green;
+    background-color: darkgrey;
+}
+
+h1{
+    color: crimson;
+    font-style: italic;
+}
+
+div > label{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+tr > td{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
