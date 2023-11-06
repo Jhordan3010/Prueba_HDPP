@@ -1,0 +1,21 @@
+iframe {
+    width: 400px;
+    height: 200px;
+}
+
+.centro {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+.izquierda {
+    text-align: left;
+    float: left;
+}
+
+.derecha {
+    text-align: right;
+    float: right;
+    margin-top: 4%;
+}
