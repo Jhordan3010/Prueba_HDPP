@@ -1,21 +1,53 @@
 body{
-    background-color: rgb(11, 178, 200);
-}
-
-h1{
-    color: crimson;
-    font-style: italic;
-}
-
-div > label{
-    color: darkgoldenrod;
-    font-weight: bold;
-}
-
-tr > td{
-    color: lightblue;
+    background-color: rgb(233, 220, 196);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    justify-content: center;
 }
-.servicios{
-    color: yellow;
+.formulario1{
+    width: 102%;
+    border-radius: 20px;
+    margin: 2%;
+    border: 2px solid #000;
+    padding: 2%;
+
 }
+.formulario1 input{
+    border: 2px solid #000;
+    
+}
+label{
+    font-weight: bold;
+    
+}
+h1{
+    color: rgb(45, 1, 86);
+}
+a:hover {
+    color: rgb(5, 48, 48);    
+}
+
+button:hover {
+    background-color: rgb(184, 240, 63);
+    
+}
+#habitacion{
+    margin-left: 50px;
+}
+#pension{
+    margin-left: 50px;
+
+}
+#comentario{
+    margin-left: 50px;
+
+}
+#correo{
+    line-height: 35px;
+}
+#enviar{
+    display: flex;
+    justify-content: center;
+}
+
+
