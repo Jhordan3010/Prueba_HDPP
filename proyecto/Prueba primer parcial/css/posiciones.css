@@ -1,7 +1,4 @@
-body{
-    justify-content: center;
-    
-}
+
 
 .datos-personales{
     display: flex;
@@ -9,14 +6,19 @@ body{
 .informacion1{
     display: inline-block;  
 }
-.informacion1 p{
-   margin-top: 18px;
-}
 .informacion2{
     display: inline-block;
     margin-left: 50px;
 }
+
+.informacion2 p{
+   margin-top: 18px;
+   display: inline-block;  
+
+}
+
 #articulosprincipales{
     display: flex;
     justify-content: center;
+    transform: translate(50vh);
 }
