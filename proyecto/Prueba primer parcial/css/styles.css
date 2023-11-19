@@ -50,4 +50,6 @@ button:hover {
     justify-content: center;
 }
 
-
+div > h1{
+    text-align: center;
+}
