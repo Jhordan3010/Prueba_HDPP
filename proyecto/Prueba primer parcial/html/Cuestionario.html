@@ -10,17 +10,9 @@
 
 <body>
  <header id="cabeceralogo">
-	 <div>
-		<h1>CUESTIONARIO </h1>
-		<h1>PORTAL DE VIAJES</h1>
-	 </div>
+		<h1>CUESTIONARIO PORTAL DE VIAJES</h1>
  </header>
- <nav id="menuprincipal">
- 	<div>
- 		
- 	</div>
- </nav>
- <main class="principal">
+ <main >
  	<section id="articulosprincipales">
  		<article>
 			<!--INICIO FORMULARIO-->
@@ -28,50 +20,43 @@
 				<article class="datos-personales">
 					<!--CUADRO DE LABELS-->
 					<div class="información1">
-						<p><label for="NombreUsuario">Nombre Usuario</label></p>
-						<br>
-						<p><label for="">Contraseña</label></p>
-						<br>
-						<p><label for="">Repetir Contraseña</label></p>
-						<br>
-						<p><label for="">Dirección</label></p>
-						<br>
-						<p><label for="">Ciudad</label></p>
-						<br>
-						<p><label for="">Provincia</label></p>
-						<br>
-						<p><label for="">Número de Huéspedes</label></p>
-						<br>
+						<p><label for="NombreUsuario">Nombre Usuario</label><br>
+						<br><label for="">Contraseña</label><br>
+						<br><label for="">Repetir Contraseña</label><br>
+						<br><label for="">Dirección</label><br>
+						<br><label for="">Ciudad</label><br>
+						<br><label for="">Provincia</label><br>
+						<br><label for="">Número de Huéspedes</label></p>
 					</div>
 					<!--cUADRO DE INPUT-->
 					<div class="información2">
 
 						<p><input id="NombreUsuario" name="NombreUsuario" type="text">
-						<a href="justificación-nombre.html">(Justificación)</a>  
+						<a href="detalles.html">(Justificación)</a>  
 						<button type="button" onclick="alert('Escribe el nombre')">?</button></p>
 
 						<p><input type="password">
-						<a href="justificación-contraseña.html">(Justificación)</a>
+						<a href="detalles.html">(Justificación)</a>
 						<button type="button" onclick="alert('Escriba contraseña')">?</button></p>
 
 						<p><input type="password">
-						<a href="Justificación-repetir-contraseña.html">(Justificación)</a>
+						<a href="detalles.html">(Justificación)</a>
 						<button type="button" onclick="alert('Repita la contraseña')">?</button></p>
 			
 						<p><input type="text">
-						<a href="justificacion-direccion.html">(Justificación)</a> 
+						<a href="detalles.html">(Justificación)</a> 
 						<button type="button" onclick="alert('Escriba la dirección')">?</button></p>
 			
 						<p><input type="text">
-						<a href="justificacion-direccion.html">(Justificación)</a>
+						<a href="detalles.html">(Justificación)</a>
 						<button type="button" onclick="alert('Seleccionar Ciudad')">?</button></p>
 						
 						<p><input type="text">
-						<a href="justificacion provincia.html">(Justificación)</a> 
+						<a href="detalles.html">(Justificación)</a> 
 						<button type="button" onclick="alert('Seleccionar Provincia')">?</button></p>
 
 						<p><input type="text">
-						<a href="justificacion-num-huespedes.html">(Justificación)</a>
+						<a href="detalles.html">(Justificación)</a>
 						<button type="button" onclick="alert('Seleccionar número de huespedes')">?</button></p>
 						
 					</div>
@@ -92,7 +77,7 @@
 							<option value="mesa">Mesa de trabajo </option>
 							<option value="WIFI"> Wifi </option>
 						</select>
-						<a href="justificacion-servicios.html">(Justificación)</a> 
+						<a href="detalles.html">(Justificación)</a> 
 					<button type="button" onclick="alert('Seleccionar tipo de servicios')">?</button>
 
 					</p>
@@ -102,9 +87,9 @@
 
 	
 				<!--TIPOS DE HABITACIÓN-->
-				<div >
+				<div>
 					<label for="">Tipos de habitación</label>
-					<a href="justificación-tipoHabitación.html">(Justificación)</a>
+					<a href="detalles.html">(Justificación)</a>
 					<button type="button" onclick="alert('Seleccionar tipo de habitacion')">?</button><br>
 
 					<table id="habitacion">
@@ -125,7 +110,7 @@
 				<!--TIPOS DE PENSION-->
 				<div >
 					<label for="">Pensión</label>
-					<a href="pension.html">(Justificación)</a>
+					<a href="detalles.html">(Justificación)</a>
 					<button type="button" onclick="alert('Seleccionar tipo de pension')">?</button><br>
 
 					<table id="pension">
@@ -149,7 +134,7 @@
 				<!--Comentarios y sugerencias-->
 				<div>
 					<label for="">Comentarios o sugerencias</label>
-					<a href="justificación-Comentarios.html">(Justificación)</a> 
+					<a href="detalles.html">(Justificación)</a> 
 					<button type="button" onclick="alert('Introduce un Comentario')">?</button><br>
 
 					<textarea name="" id="comentario" cols="50" rows="5"></textarea>
@@ -158,19 +143,19 @@
 					<!--Correo-->
 					<label for="">E-mail contacto</label>
 					<input type="text" name="" id="">
-					<a href="justificación-email.html">(Justificación)</a> 
+					<a href="detalles.html">(Justificación)</a> 
 					<button type="button" onclick="alert('Escribir un e-mail como contacto del usuario')">?</button><br>
 					<!--Politicas-->
 					<input type="checkbox" name="" id="">
 					<label for="">Acepto Política de privacidad</label>
-					<a href="politicas.html">(Justificación)</a> 
+					<a href="detalles.html">(Justificación)</a> 
 					<button type="button" onclick="alert('Tiene que acptar las politiacas de privacidad para enviar formulario')">?</button><br>
 				</div>
 
 				<div id="enviar">
-					<button type="submit" onclick="alert('El formulario se ha enviado')">Enviar</button> <a href="enviar.html">(Justificación)</a>
+					<button type="submit" onclick="alert('El formulario se ha enviado')">Enviar</button> <a href="detalles.html">(Justificación)</a>
 					<button type="button" onclick="alert('Enviar el formulario')">?</button>
-					<button type="reset">Limpiar</button><a href="limpiar.html">(Justificación)</a> 
+					<button type="reset">Limpiar</button><a href="detalles.html">(Justificación)</a> 
 					<button type="button" onclick="alert('Borra todos los campos llenados')">?</button><br>
 				</div>
 
@@ -181,30 +166,14 @@
 
 
  		</article>
- 		<article>
- 			
- 			
- 			<figure>
- 				
- 			</figure>
- 		</article>
  	</section>
  	<aside id="infoadicional">
  		
  	
  </main>
  <footer id="pielogo"> 
-	<div>
-	 	<section class="seccionpie">
-	 		
-	 	</section>
-	 	<section class="seccionpie">
-	 	
-	 	</section>
-	 	<section class="seccionpie">
-	 		
-	 	</section>
- 	</div>
+	<label for="segundaParte">Segunda Pregunta</label>
+	<button type="button"><a href="ventanas.html">Segunda Parte</a></button>
  </footer>
 </body>
 </html> 

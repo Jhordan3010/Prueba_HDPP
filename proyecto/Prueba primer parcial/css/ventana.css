@@ -1,11 +1,12 @@
 iframe{
     width: 400px;
-    height: 00px;
+    height: 200px;
 }
 nav{
     flex-direction: column;
     text-align: center;
 }
+
 
 
 main{
@@ -15,9 +16,7 @@ main{
 }
 
 article{
-    width: 90%;
-
-    
+    width: 90%; 
 }
 
 
