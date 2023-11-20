@@ -1,0 +1,24 @@
+
+
+.datos-personales{
+    display: flex;
+}
+.informacion1{
+    display: inline-block;  
+}
+.informacion2{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.informacion2 p{
+   margin-top: 18px;
+   display: inline-block;  
+
+}
+
+#articulosprincipales{
+    display: flex;
+    justify-content: center;
+    transform: translate(50vh);
+}
